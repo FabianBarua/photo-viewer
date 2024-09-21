@@ -84,7 +84,7 @@ const GaleriaComponent = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (photos ? (prevIndex + 1) % photos.length : 0));
-    }, 3000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [photos]);
