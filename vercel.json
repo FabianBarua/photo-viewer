@@ -3,5 +3,4 @@
             {"source": "/(.*)", "destination": "/"}
       ]
     }
-      ]
-}
+    
