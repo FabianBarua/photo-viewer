@@ -117,7 +117,7 @@ const GaleriaComponent = () => {
           className="galeria-image" 
         />
       ) : (
-        <p>No hay fotos disponibles.</p>
+        <p>No hay fotos disponibles o estan cargando...</p>
       )}
     </div>
   );
